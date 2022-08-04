@@ -1,8 +1,4 @@
 {
-  "baseBranches": [
-    "dev",
-    "main"
-  ],
   "packageRules": [
     {
       "groupName": "prod",
