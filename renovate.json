@@ -1,13 +1,22 @@
 {
-	"baseBranches": ["dev", "main"],
-	"packageRules": [{
-		"groupName": "prod",
-		"matchPaths": ["prod/**/sub3/**"],
-		"addLabels": ["prod"]
-	},
-  {
-		"groupName": "dev",
-		"matchPaths": ["dev/**/sub4/Dockerfile"],
-		"addLabels": ["dev"]
-	}]
+  "baseBranches": [
+    "dev",
+    "main"
+  ],
+  "packageRules": [
+    {
+      "groupName": "prod",
+      "matchPaths": ["prod/**/sub3/**"],
+      "addLabels": [
+        "prod"
+      ]
+    },
+    {
+      "groupName": "dev",
+      "matchPaths": ["dev/**/sub4/Dockerfile"],
+      "addLabels": [
+        "dev"
+      ]
+    }
+  ]
 }
