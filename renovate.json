@@ -7,7 +7,7 @@
 	},
   {
 		"groupName": "dev",
-		"matchPaths": ["dev/**/sub4"],
+		"matchPaths": ["dev/**/sub4/Dockerfile"],
 		"addLabels": ["dev"]
 	}]
 }
