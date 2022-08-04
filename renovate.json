@@ -7,7 +7,7 @@
 	},
   {
 		"groupName": "dev",
-		"matchPaths": ["dev/**/sub3/**"],
+		"matchPaths": ["dev/**/sub4/"],
 		"addLabels": ["dev"]
 	}]
 }
